@@ -11,7 +11,12 @@ fastapi = "^0.103.2"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
 firebase-admin = "^6.2.0"
 langchain = "^0.0.305"
+openai = "^0.28.1"
+pydantic = "^2.4.2"
 
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
